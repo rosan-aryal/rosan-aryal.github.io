@@ -10,6 +10,8 @@ export default function Marquee() {
         <span>REACT NATIVE • </span>
         <span>HONO • </span>
         <span>EXPRESS • </span>
+        <span>POSTGRES • </span>
+        <span>DOCKER • </span>
         <span>JAVA • </span>
         <span>AVAILABLE FOR HIRE • </span>
         <span>REACT • </span>
