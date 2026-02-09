@@ -4,7 +4,7 @@ import Projects from "@/components/sections/projects";
 import Marquee from "@/components/sections/marquee";
 import Skills from "@/components/sections/skills";
 import Terminal from "@/components/sections/terminal";
-import Contact from "@/components/sections/contact";
+import Contact from "@/components/sections/contact-mailto";
 
 export default function Home() {
   return (
