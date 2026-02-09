@@ -8,7 +8,7 @@ export async function GET() {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://rosan-aryal.github.io/portfolio/sitemap.xml",
+    sitemap: "https://rosan-aryal.github.io/sitemap.xml",
   };
 
   const rules = Array.isArray(robots.rules) ? robots.rules[0] : robots.rules;

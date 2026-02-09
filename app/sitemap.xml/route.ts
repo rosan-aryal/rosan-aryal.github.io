@@ -5,7 +5,7 @@ export const dynamic = "force-static";
 export async function GET() {
   const sitemap: MetadataRoute.Sitemap = [
     {
-      url: "https://yourdomain.com",
+      url: "https://rosan-aryal.github.io/",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1,
