@@ -1,53 +1,43 @@
+import { links } from "@/data/links";
+import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 
 const Footer = () => {
   return (
-    <>
-      <footer className="max-w-6xl mx-auto">
-        <div className="footer-logo">
-          <h2>
-            Roshan Aryal
-            <br />
-          </h2>
+    <footer className="max-w-6xl mx-auto px-4 py-3">
+      <div className="w-full">
+        <div>
+          <Image
+            src={"/logo.png"}
+            alt="Logo"
+            width={48}
+            height={48}
+            className="mx-auto"
+          />
         </div>
-        <div style={{ textAlign: "right" }}>
-          <div style={{ marginBottom: "20px" }}>
-            <Link
-              href="#"
-              style={{
-                color: "var(--text-primary)",
-                textDecoration: "none",
-                marginLeft: "20px",
-              }}
-            >
-              TWITTER
-            </Link>
-            <Link
-              href="#"
-              style={{
-                color: "var(--text-primary)",
-                textDecoration: "none",
-                marginLeft: "20px",
-              }}
-            >
-              GITHUB
-            </Link>
-            <Link
-              href="#"
-              style={{
-                color: "var(--text-primary)",
-                textDecoration: "none",
-                marginLeft: "20px",
-              }}
-            >
-              LINKEDIN
-            </Link>
-          </div>
-          <p className="copyright">ALL RIGHTS RESERVED.</p>
-        </div>
-      </footer>
-    </>
+        <div className="mb-6 text-center text-4xl">Roshan Aryal</div>
+        <nav className="flex items-center justify-center w-full gap-6 text-sm text-gray-600">
+          <Link href={links.x} className="hover:underline">
+            TWITTER
+          </Link>
+          <Link href={links.github} className="hover:underline">
+            GITHUB
+          </Link>
+          <Link href={links.linkedIn} className="hover:underline">
+            LINKEDIN
+          </Link>
+          <Link href={links.facebook} className="hover:underline">
+            FACEBOOK
+          </Link>
+          <Link href={links.instagram} className="hover:underline">
+            INSTAGRAM
+          </Link>
+        </nav>
+        <span className="block text-center mt-5 text-sm text-muted-foreground/70">
+          ALL RIGHTS RESERVED.
+        </span>
+      </div>
+    </footer>
   );
 };
 

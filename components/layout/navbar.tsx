@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const Navbar = () => {
@@ -11,7 +12,9 @@ const Navbar = () => {
           alignItems: "center",
         }}
       >
-        <div className="logo">Roshan</div>
+        <div className="logo">
+          <Image src={"/logo.png"} alt="Logo" width={48} height={48} />
+        </div>
         <nav className="nav-links">
           <Link href="#about">ABOUT</Link>
           <Link href="#projects">PROJECTS</Link>

@@ -16,9 +16,18 @@ export default function Hero() {
           and modern backend technologies. From frontend pixels to backend
           APIs — I ship the full stack.
         </p>
-        <Link href="#projects" className="btn-retro">
-          VIEW PROJECTS
-        </Link>
+        <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
+          <Link href="#projects" className="btn-retro">
+            VIEW PROJECTS
+          </Link>
+          <a
+            href="/Roshan Aryal CV.pdf"
+            download
+            className="btn-outline-retro"
+          >
+            DOWNLOAD RESUME
+          </a>
+        </div>
       </div>
       <WindowFrame title="PORTRAIT_01.JPG">
         <img

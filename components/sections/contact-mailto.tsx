@@ -188,9 +188,21 @@ export default function ContactMailto() {
                 <span className="social-icon">{">"}</span>
                 <span>LINKEDIN</span>
               </Link>
-              <Link href={links.x} target="_blank" className="social-link-row">
+              <Link
+                href={links.facebook}
+                target="_blank"
+                className="social-link-row"
+              >
                 <span className="social-icon">{">"}</span>
-                <span>TWITTER / X</span>
+                <span>FACEBOOK</span>
+              </Link>
+              <Link
+                href={links.instagram}
+                target="_blank"
+                className="social-link-row"
+              >
+                <span className="social-icon">{">"}</span>
+                <span>INSTAGRAM</span>
               </Link>
             </div>
           </div>

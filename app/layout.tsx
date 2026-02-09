@@ -5,6 +5,7 @@ import "./globals.css";
 import Navbar from "@/components/layout/navbar";
 import Footer from "@/components/layout/footer";
 import { RetroToastContainer } from "@/components/ui/retro-toast";
+import Script from "next/script";
 
 const _spaceMono = Space_Mono({
   weight: ["400", "700"],
@@ -17,7 +18,7 @@ const _syne = Syne({
   variable: "--font-syne",
 });
 
-const siteUrl = "https://roshanaryal.dev";
+const siteUrl = "https://rosan-aryal.github.io/";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -68,7 +69,7 @@ export const metadata: Metadata = {
     title: "Roshan Aryal — Fullstack Developer",
     description:
       "Fullstack developer specializing in React, Next.js, tRPC, React Native, and modern backend technologies.",
-    images: ["/og-image.png"],
+    images: ["/logo.png"],
   },
   robots: {
     index: true,
@@ -87,19 +88,19 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
+        url: "/logo.png",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/icon-dark-32x32.png",
+        url: "/logo.png",
         media: "(prefers-color-scheme: dark)",
       },
       {
-        url: "/icon.svg",
-        type: "image/svg+xml",
+        url: "/logo.png",
+        type: "image/png",
       },
     ],
-    apple: "/apple-icon.png",
+    apple: "/logo.png",
   },
 };
 
@@ -132,7 +133,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script
+        <Script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />

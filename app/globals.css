@@ -196,7 +196,7 @@
 header {
   border-bottom: 2px solid var(--border-color);
   background: var(--surface);
-  padding: 15px 30px;
+  padding: 10px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -236,7 +236,7 @@ header {
 }
 
 .hero {
-  padding: 100px 0;
+  padding: 60px 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 60px;
