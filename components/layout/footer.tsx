@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="max-w-6xl mx-auto px-4 py-3">
+    <footer className="max-w-6xl mx-auto px-4 ">
       <div className="w-full">
         <div>
           <Image
@@ -16,7 +16,7 @@ const Footer = () => {
           />
         </div>
         <div className="mb-6 text-center text-4xl">Roshan Aryal</div>
-        <nav className="flex items-center justify-center w-full gap-6 text-sm text-gray-600">
+        <nav className="flex items-center justify-center w-full flex-wrap gap-6 text-sm text-[#666666] mb-6">
           <Link href={links.x} className="hover:underline">
             TWITTER
           </Link>
@@ -33,7 +33,7 @@ const Footer = () => {
             INSTAGRAM
           </Link>
         </nav>
-        <span className="block text-center mt-5 text-sm text-muted-foreground/70">
+        <span className="block text-center  text-sm text-muted-foreground/70">
           ALL RIGHTS RESERVED.
         </span>
       </div>

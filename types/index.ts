@@ -36,6 +36,25 @@ export interface ApiResponse {
   message: string;
 }
 
+export type ExperienceStatus = "COMPLETED" | "IN_PROGRESS";
+
+export interface Experience {
+  id: string;
+  codename: string;
+  title: string;
+  excerpt: string;
+  description: string;
+  image: string;
+  imageAlt: string;
+  tags: string[];
+  techStack: string[];
+  status: ExperienceStatus;
+  year: number;
+  duration: string;
+  company: string;
+  link?: string;
+}
+
 export interface Socials {
   linkedIn: string;
   github: string;
