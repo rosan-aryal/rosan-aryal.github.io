@@ -16,7 +16,7 @@ export interface Project {
   github?: string;
 }
 
-export type SkillCategory = "frontend" | "backend" | "mobile";
+export type SkillCategory = "languages" | "frameworks" | "backend" | "database" | "mobile";
 
 export interface Skill {
   name: string;
