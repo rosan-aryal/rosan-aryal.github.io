@@ -62,7 +62,7 @@ export const projects: Project[] = [
     techStack: ["React.js", "Next.js", "Tailwind CSS", "TypeScript"],
     status: "COMPLETED",
     year: 2025,
-    link: "",
+    link: "https://aiphotocraft.com",
   },
   {
     id: "5",
@@ -78,23 +78,25 @@ export const projects: Project[] = [
     techStack: ["Next.js", "Tailwind CSS", "TypeScript"],
     status: "COMPLETED",
     year: 2025,
-    link: "",
+    link: "https://kmcpokhara.edu.np",
   },
-  {
-    id: "6",
-    codename: "PROJECT_ZETA",
-    title: "Sacred Valley Treks",
-    excerpt:
-      "A trekking agency website focused on Nepal's destinations and itineraries.",
+     {                                                                                                                                             
+    id: "6",   
+    codename: "PROJECT_ZETA",                                                                                                                   
+    title: "SocialPreviewHub",                                                                                                                  
+    excerpt:      
+      "A free all-in-one social media toolkit with 20+ tools for creators and marketers.",
     description:
-      "Developed a trekking agency site focused on Nepal's trekking destinations, detailing itineraries and booking options. Integrated user-friendly features like maps and forms to enhance navigation and reservations for trekkers.",
-    image: "",
-    imageAlt: "Trekking Website",
-    tags: ["WEB_DESIGN", "FRONTEND", "INACTIVE"],
-    techStack: ["React.js", "Tailwind CSS", "TypeScript"],
-    status: "ARCHIVED",
-    year: 2024,
-    link: "",
+      "Built a free all-in-one social media toolkit featuring 20+ tools including post previews, LinkedIn carousel builder, social media image  
+  resizer, QR code & barcode generators, meta tag generator, UTM builder, color palette generator, device mockups, and more. Designed for       
+  content creators, marketers, and developers — no signup required.",
+    image: "/images/socialpreviewhub.svg",
+    imageAlt: "Social Media Toolkit",
+    tags: ["WEB_DESIGN", "FULLSTACK", "UI_UX"],
+    techStack: ["Next.js", "React", "Tailwind CSS", "TypeScript", "shadcn/ui"],
+    status: "COMPLETED",
+    year: 2025,
+    link: "https://socialpreviewhub.com",
   },
   {
     id: "7",
@@ -128,5 +130,21 @@ export const projects: Project[] = [
     status: "IN_PROGRESS",
     year: 2025,
     link: "https://blogapiservice.com",
+  },
+  {
+    id: "9",
+    codename: "PROJECT_IOTA",
+    title: "Sacred Valley Treks",
+    excerpt:
+      "A trekking agency website focused on Nepal's destinations and itineraries.",
+    description:
+      "Developed a trekking agency site focused on Nepal's trekking destinations, detailing itineraries and booking options. Integrated user-friendly features like maps and forms to enhance navigation and reservations for trekkers.",
+    image: "",
+    imageAlt: "Trekking Website",
+    tags: ["WEB_DESIGN", "FRONTEND", "INACTIVE"],
+    techStack: ["React.js", "Tailwind CSS", "TypeScript"],
+    status: "ARCHIVED",
+    year: 2024,
+    link: "https://sacredvalleytreks.com.np",
   },
 ];
