@@ -80,16 +80,14 @@ export const projects: Project[] = [
     year: 2025,
     link: "https://kmcpokhara.edu.np",
   },
-     {                                                                                                                                             
-    id: "6",   
-    codename: "PROJECT_ZETA",                                                                                                                   
-    title: "SocialPreviewHub",                                                                                                                  
-    excerpt:      
+  {
+    id: "6",
+    codename: "PROJECT_ZETA",
+    title: "SocialPreviewHub",
+    excerpt:
       "A free all-in-one social media toolkit with 20+ tools for creators and marketers.",
     description:
-      "Built a free all-in-one social media toolkit featuring 20+ tools including post previews, LinkedIn carousel builder, social media image  
-  resizer, QR code & barcode generators, meta tag generator, UTM builder, color palette generator, device mockups, and more. Designed for       
-  content creators, marketers, and developers — no signup required.",
+      "Built a free all-in-one social media toolkit featuring 20+ tools including post previews, LinkedIn carousel builder, social media image  resizer, QR code & barcode generators, meta tag generator, UTM builder, color palette generator, device mockups, and more. Designed for content creators, marketers, and developers — no signup required.",
     image: "/images/socialpreviewhub.svg",
     imageAlt: "Social Media Toolkit",
     tags: ["WEB_DESIGN", "FULLSTACK", "UI_UX"],
