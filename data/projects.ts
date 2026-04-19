@@ -67,6 +67,45 @@ export const projects: Project[] = [
   {
     id: "5",
     codename: "PROJECT_EPSILON",
+    title: "Prospect Hill NDIS",
+    excerpt:
+      "An NDIS-registered provider site for Supported Independent Living across NSW and QLD.",
+    description:
+      "Designed a website for Prospect Hill, an NDIS-registered provider delivering Supported Independent Living, community participation, and respite care across New South Wales and Queensland. Highlighted person-centered programs, five service locations, and resources for participants, families, and support coordinators to simplify access to disability support since 2010.",
+    image: "https://prospect-hill.com.au/images/porospect-hill.webp",
+    imageAlt: "NDIS Provider Website",
+    tags: ["WEB_DESIGN", "FRONTEND", "UI_UX"],
+    techStack: ["Next.js", "Tailwind CSS", "TypeScript"],
+    status: "COMPLETED",
+    year: 2026,
+    link: "https://prospect-hill.com.au",
+  },
+  {
+    id: "6",
+    codename: "PROJECT_ZETA",
+    title: "Navion Tech Solutions",
+    excerpt:
+      "A fleet tracking, CCTV, and networking platform for businesses across Nepal.",
+    description:
+      "Built a fullstack platform for NaviOn Tech Solutions, Nepal's trusted provider of GPS fleet tracking, CCTV surveillance, vehicle dashcams, enterprise networking, and software development. Delivered real-time vehicle monitoring, route optimization, a product catalog, and service pages tailored for businesses across Pokhara, Kathmandu, and other major Nepali cities. Completed as a freelance engagement.",
+    image: "https://navion.com.np/logo.png",
+    imageAlt: "Fleet Tracking & Tech Platform",
+    tags: ["WEB_DESIGN", "FULLSTACK", "FREELANCE"],
+    techStack: [
+      "Next.js",
+      "Tailwind CSS",
+      "TypeScript",
+      "Hono",
+      "PostgreSQL",
+      "Drizzle ORM",
+    ],
+    status: "COMPLETED",
+    year: 2026,
+    link: "https://navion.com.np",
+  },
+  {
+    id: "7",
+    codename: "PROJECT_ETA",
     title: "Kalika Multiple Campus",
     excerpt:
       "A website showcasing educational programs and facilities for Kalika Multiple Campus.",
@@ -81,57 +120,8 @@ export const projects: Project[] = [
     link: "https://kmcpokhara.edu.np",
   },
   {
-    id: "6",
-    codename: "PROJECT_ZETA",
-    title: "SocialPreviewHub",
-    excerpt:
-      "A free all-in-one social media toolkit with 20+ tools for creators and marketers.",
-    description:
-      "Built a free all-in-one social media toolkit featuring 20+ tools including post previews, LinkedIn carousel builder, social media image  resizer, QR code & barcode generators, meta tag generator, UTM builder, color palette generator, device mockups, and more. Designed for content creators, marketers, and developers — no signup required.",
-    image: "https://socialpreviewhub.com/images/logo.png",
-    imageAlt: "Social Media Toolkit",
-    tags: ["WEB_DESIGN", "FULLSTACK", "UI_UX"],
-    techStack: ["Next.js", "React", "Tailwind CSS", "TypeScript", "shadcn/ui"],
-    status: "COMPLETED",
-    year: 2025,
-    link: "https://socialpreviewhub.com",
-  },
-  {
-    id: "7",
-    codename: "PROJECT_ETA",
-    title: "Bodhidham ",
-    excerpt:
-      "A website for yoga retreats and spiritual wellness center in Nepal.",
-    description:
-      "Developing a comprehensive website for Bodhidham Yoga Retreats & Spiritual Wellness Center, featuring retreat schedules, booking systems, wellness program details, and resources for spiritual growth. Incorporating responsive design for seamless user experience across devices, with integrations for payments and user registrations.",
-    image:
-      "https://bodhidham.raiserank.com.np/_next/image?url=%2Fimages%2Flogo.webp&w=96&q=75",
-    imageAlt: "Yoga Retreat Center",
-    tags: ["WEB_DESIGN", "UI_UX", "FULLSTACK"],
-    techStack: ["React.js", "Next.js", "Tailwind CSS", "TypeScript"],
-    status: "IN_PROGRESS",
-    year: 2026,
-    link: "https://bodhidham.raiserank.com.np",
-  },
-  {
     id: "8",
     codename: "PROJECT_THETA",
-    title: "Bloggie - Blog API Service",
-    excerpt:
-      "A modern blog platform with REST API for content management and delivery.",
-    description:
-      "Developed Bloggie, a developer-centric blog platform that simplifies content publishing and API integration. It allows users to create projects, publish blogs via an intuitive editor, and serve content through well-documented REST APIs. Key features include simple API key authentication, predictable JSON responses, global CDN delivery for fast performance, and real-time analytics for content optimization. The platform supports seamless integration with any tech stack, making it ideal for scalable web or mobile applications.",
-    image: "",
-    imageAlt: "Blog Platform",
-    tags: ["WEB_DESIGN", "API", "FRONTEND"],
-    techStack: ["Node.js", "Express.js", "TypeScript", "Tailwind CSS", "tRPC"],
-    status: "IN_PROGRESS",
-    year: 2025,
-    link: "https://blogapiservice.com",
-  },
-  {
-    id: "9",
-    codename: "PROJECT_IOTA",
     title: "Sacred Valley Treks",
     excerpt:
       "A trekking agency website focused on Nepal's destinations and itineraries.",
@@ -143,6 +133,39 @@ export const projects: Project[] = [
     techStack: ["React.js", "Tailwind CSS", "TypeScript"],
     status: "ARCHIVED",
     year: 2024,
-    link: "https://sacredvalleytreks.com.np",
+    link: "",
+  },
+  {
+    id: "9",
+    codename: "PROJECT_IOTA",
+    title: "Bodhidham ",
+    excerpt:
+      "A website for yoga retreats and spiritual wellness center in Nepal.",
+    description:
+      "Developing a comprehensive website for Bodhidham Yoga Retreats & Spiritual Wellness Center, featuring retreat schedules, booking systems, wellness program details, and resources for spiritual growth. Incorporating responsive design for seamless user experience across devices, with integrations for payments and user registrations.",
+    image:
+      "https://bodhidham.com/wp-content/uploads/2024/08/Bodhi-Dham-Logo-1399x1536.png.webp",
+    imageAlt: "Yoga Retreat Center",
+    tags: ["WEB_DESIGN", "UI_UX", "FULLSTACK"],
+    techStack: ["React.js", "Next.js", "Tailwind CSS", "TypeScript"],
+    status: "IN_PROGRESS",
+    year: 2026,
+    link: "",
+  },
+  {
+    id: "10",
+    codename: "PROJECT_KAPPA",
+    title: "Bloggie - Blog API Service",
+    excerpt:
+      "A modern blog platform with REST API for content management and delivery.",
+    description:
+      "Developed Bloggie, a developer-centric blog platform that simplifies content publishing and API integration. It allows users to create projects, publish blogs via an intuitive editor, and serve content through well-documented REST APIs. Key features include simple API key authentication, predictable JSON responses, global CDN delivery for fast performance, and real-time analytics for content optimization. The platform supports seamless integration with any tech stack, making it ideal for scalable web or mobile applications.",
+    image: "",
+    imageAlt: "Blog Platform",
+    tags: ["WEB_DESIGN", "API", "FRONTEND"],
+    techStack: ["Node.js", "Express.js", "TypeScript", "Tailwind CSS", "tRPC"],
+    status: "IN_PROGRESS",
+    year: 2026,
+    link: "https://blogapiservice.com",
   },
 ];
